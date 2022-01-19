@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            display: block;
+            text-align: center;
+            background-color: orangered;
+            color: #000;
+        }
+        .container-1{
+            display: flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+        .container-1 div{
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 200px;
+            height: 280;
+            margin-top: 10px;
+        }
+        .container-2{
+            display: flex;
+            flex-direction:row;
+            flex-wrap:wrap;
+            justify-content: center;
+        }
+        .container-2 div{
+            border: 1px solid #ccc;
+            padding: 25px;
+            width: 200px;
+            height: 300;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex-Box</h1>
+    <div class = "container-1">
+        <div class = "box-1" style="background-color:seagreen;">
+          <h3>Box one</h3>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid laboriosam animi quod nihil reprehenderit sapiente.</p>
+        </div>
+        <div class = "box-2" style="background-color: palevioletred;">
+            <h3>Box Two</h3>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, magni fugiat laudantium fugit animi odit!</p>
+          </div>
+          <div class = "box-3" style="background-color: seagreen;">
+            <h3>Box Three</h3>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit recusandae quaerat itaque laborum, tempora repellendus?</p>
+          </div>
+    </div> 
+    <div class = "container-2">
+        <div class = "box-4" style="background-color: palevioletred;">
+            <h3>Box Four</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni officia quos beatae ea illo repellendus nulla cum et harum fugit quaerat pariatur laudantium, nam numquam tenetur exercitationem minima eius. Laboriosam, odit nobis reiciendis autem beatae animi corrupti quo debitis repellat!</p>
+        </div>
+        <div class = "box-5" style="background-color: seagreen;">
+            <h3>Box Five</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni officia quos beatae ea illo repellendus nulla cum et harum fugit quaerat pariatur laudantium, nam numquam tenetur exercitationem minima eius. Laboriosam, odit nobis reiciendis autem beatae animi corrupti quo debitis repellat!</p>
+        </div>
+    </div>
+</body>
+</html>
